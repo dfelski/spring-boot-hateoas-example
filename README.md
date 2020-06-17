@@ -36,7 +36,7 @@ curl -X POST http://localhost:8080/bowls/3105ec9b-9f05-49d0-9918-d4313fd29140/sn
 We can only remove bowls, if they are empty.
 
 ```
-curl http://localh-X DELETE http://localhost:8080/bowls/3105ec9b-9f05-49d0-9918-d4313fd29140
+curl -X DELETE http://localhost:8080/bowls/3105ec9b-9f05-49d0-9918-d4313fd29140
 ```
 
 ## HAL representation
